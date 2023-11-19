@@ -7,6 +7,7 @@ import org.example.pojo.ChangeDeliveryAddress.DeliveryDate;
 import org.example.pojo.Token;
 import org.example.request.configuration.RequestConfigurationBuilder;
 import org.example.rop.BaseEndpoint;
+import org.example.test.data.ChangeAddressFormGenerator;
 
 
 import java.lang.reflect.Type;
@@ -28,12 +29,8 @@ public class ChangeDeliveryAddressEndpoint extends BaseEndpoint<ChangeDeliveryAd
         DeliveryDate deliveryDate = new DeliveryDate();
         deliveryDate.setDeliveryDate("2023-10-29");
 
-        Address address = new Address();
-        address.setCity("Praha");
-        address.setStreetName("alohomora");
-        address.setStreetNumber("11");
-        address.setZipCode("14100");
-        address.setCountryCode("CZ");
+        ChangeAddressFormGenerator changeAddressFormGenerator = new ChangeAddressFormGenerator();
+        Address address = changeAddressFormGenerator.generateAddress();
 
         ChangeDeliveryAddressForm changeDeliveryAddressForm = new ChangeDeliveryAddressForm();
         changeDeliveryAddressForm.setName("Damian Przygodny");
