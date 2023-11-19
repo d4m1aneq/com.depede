@@ -5,31 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f865b701-e53c-4c94-a9c7-0faaf5ac1354" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/ChangeDeliveryAddress/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/ChangeDeliveryAddress/ChangeDeliveryAddressForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/ChangeDeliveryAddress/DeliveryDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/properties/EnvironmentConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/request/configuration/RequestConfigurationBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/response/configuration/ResponseConfigurationBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/rop/BaseEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/rop/CreateTokenEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/rop/CreateTokenForAccountHolderEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/rop/fmp/redirections/ah/ChangeDeliveryAddressEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/data/ChangeAddressFormGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/data/TestDataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/EnvironmentConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/restassured/tests/fmp/redirections/ah/ChangeDeliveryAddressTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/restassured/tests/testbases/SuiteTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/restassured/tests/token/CreateTokenForAccountHolderTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/restassured/tests/token/CreateTokenTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pojo/ChangeDeliveryAddress/DeliveryDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/ChangeDeliveryAddress/DeliveryDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/rop/fmp/redirections/ah/ChangeDeliveryAddressEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/rop/fmp/redirections/ah/ChangeDeliveryAddressEndpoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
