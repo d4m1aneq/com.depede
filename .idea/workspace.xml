@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f865b701-e53c-4c94-a9c7-0faaf5ac1354" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/ChangeDeliveryAddress/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/ChangeDeliveryAddress/ChangeDeliveryAddressForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/ChangeDeliveryAddress/DeliveryDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/properties/EnvironmentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/request/configuration/RequestConfigurationBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/response/configuration/ResponseConfigurationBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/rop/BaseEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/rop/CreateTokenEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/rop/CreateTokenForAccountHolderEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/rop/fmp/redirections/ah/ChangeDeliveryAddressEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/data/ChangeAddressFormGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/data/TestDataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/EnvironmentConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/restassured/tests/fmp/redirections/ah/ChangeDeliveryAddressTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/restassured/tests/testbases/SuiteTestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/restassured/tests/token/CreateTokenForAccountHolderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/restassured/tests/token/CreateTokenTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VGXCxqP9SCgYuY0SOb8y5YNrXk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\damian.przygoda\Documents\workspace\com.depede\src\test\java\org\example\restassured\tests\fmp\" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.restassured.tests.token" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ChangeDeliveryAddressTests">
+    <configuration name="ChangeDeliveryAddressTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="depede" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.restassured.tests.fmp.redirections.ah.ChangeDeliveryAddressTests" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.restassured.tests.fmp.redirections.ah" />
+      <option name="MAIN_CLASS_NAME" value="org.example.restassured.tests.fmp.redirections.ah.ChangeDeliveryAddressTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChangeDeliveryAddressTests.givenLoginTokenWhenPostThenChangeDeliveryAddressTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="depede" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.restassured.tests.fmp.redirections.ah.ChangeDeliveryAddressTests" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.restassured.tests.fmp.redirections.ah" />
+      <option name="MAIN_CLASS_NAME" value="org.example.restassured.tests.fmp.redirections.ah.ChangeDeliveryAddressTests" />
+      <option name="METHOD_NAME" value="givenLoginTokenWhenPostThenChangeDeliveryAddressTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateTokenForAccountHolderTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="depede" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.restassured.tests.token.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.restassured.tests.token" />
+      <option name="MAIN_CLASS_NAME" value="org.example.restassured.tests.token.CreateTokenForAccountHolderTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateTokenForAccountHolderTests.givenOAuthTokenWhenPostThenTokenForAccountHolderIsCreatedTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="depede" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.restassured.tests.token.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.restassured.tests.token" />
+      <option name="MAIN_CLASS_NAME" value="org.example.restassured.tests.token.CreateTokenForAccountHolderTests" />
+      <option name="METHOD_NAME" value="givenOAuthTokenWhenPostThenTokenForAccountHolderIsCreatedTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateTokenTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="depede" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.restassured.tests.token.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.restassured.tests.token" />
+      <option name="MAIN_CLASS_NAME" value="org.example.restassured.tests.token.CreateTokenTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ChangeDeliveryAddressTests" />
+        <item itemvalue="TestNG.CreateTokenTests" />
+        <item itemvalue="TestNG.CreateTokenForAccountHolderTests" />
+        <item itemvalue="TestNG.ChangeDeliveryAddressTests.givenLoginTokenWhenPostThenChangeDeliveryAddressTest" />
+        <item itemvalue="TestNG.CreateTokenForAccountHolderTests.givenOAuthTokenWhenPostThenTokenForAccountHolderIsCreatedTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f865b701-e53c-4c94-a9c7-0faaf5ac1354" name="Changes" comment="" />
+      <created>1694463267445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694463267445</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
