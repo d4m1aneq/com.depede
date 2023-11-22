@@ -2,7 +2,7 @@ package org.example.pojo.ChangeDeliveryAddress;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class ChangeDeliveryAddressForm {
+public class UserData {
     @SerializedName("name")
     @Expose
     private String name;

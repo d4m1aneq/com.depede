@@ -2,7 +2,7 @@ package org.example.test.data;
 import org.example.pojo.ChangeDeliveryAddress.Address;
 
 
-public class ChangeAddressFormGenerator extends TestDataGenerator {
+public class UserAddressGenerator extends TestDataGenerator {
 
     public Address generateAddress() {
 
