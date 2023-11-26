@@ -5,8 +5,6 @@ import com.google.gson.annotations.SerializedName;
 
 public class Address {
 
-    @SerializedName("city")
-    @Expose
     public String city;
     private String streetName;
     private String streetNumber;

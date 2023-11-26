@@ -1,18 +1,14 @@
 package org.example.rop.fmp.redirections.ah;
-
 import org.apache.http.HttpStatus;
 import org.example.pojo.ChangeDeliveryAddress.Address;
-import org.example.pojo.ChangeDeliveryAddress.UserData;
 import org.example.pojo.ChangeDeliveryAddress.DeliveryDate;
+import org.example.pojo.ChangeDeliveryAddress.UserData;
 import org.example.pojo.Token;
 import org.example.request.configuration.RequestConfigurationBuilder;
 import org.example.rop.BaseEndpoint;
 import org.example.test.data.UserAddressGenerator;
 import org.example.test.data.UserDataGenerator;
-
-
 import java.lang.reflect.Type;
-
 import static io.restassured.RestAssured.given;
 
 public class ChangeDeliveryAddressEndpoint extends BaseEndpoint<ChangeDeliveryAddressEndpoint, Token> {
@@ -35,15 +31,6 @@ public class ChangeDeliveryAddressEndpoint extends BaseEndpoint<ChangeDeliveryAd
 
         UserDataGenerator userDataGenerator = new UserDataGenerator();
         UserData userData = userDataGenerator.generateUserData();
-
-//        UserData userData = new UserData();
-
-//        changeDeliveryAddressForm.setName("Damian Przygodny");
-//        changeDeliveryAddressForm.setTitle("Mr.");
-//        changeDeliveryAddressForm.setCompanyName("DEPEDE");
-//        changeDeliveryAddressForm.setPhoneNumber("77777777777");
-//        changeDeliveryAddressForm.setEmailAddress("test@example.com");
-//        changeDeliveryAddressForm.setAdditionalInformation("kopytko");
         userData.setDeliveryDate(deliveryDate);
         userData.setAddress(address);
 
