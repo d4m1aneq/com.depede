@@ -20,9 +20,6 @@ public class CreateTokenEndpoint extends BaseEndpoint<CreateTokenEndpoint, Token
                 .header("Authorization", "Basic Zm1wOmZtcHNlY3JldA==")
                 .queryParam("grant_type", "client_credentials")
                 .when().post("oauth/token");
-
-        String tokenType = response.as(Token.class).getTokenType();
-        String accessToken = response.as(Token.class).getAccessToken();
         return this;
     }
     @Override

@@ -8,15 +8,17 @@ import org.testng.annotations.Test;
 
 public class CreateTokenForAccountHolderTests extends SuiteTestBase {
 
+    public Token loggedUserToken;
+
     @Test
-    public void givenOAuthTokenWhenPostThenTokenForAccountHolderIsCreatedTest() {
+    public void givenOAuthTokenWhenPostThenTokenForAccountHolderIsCreatedTest()  {
 
         CreateTokenTests createTokenTests = new CreateTokenTests();
         createTokenTests.givenWhenPostThenTokenIsCreatedTest();
         Token token = createTokenTests.actualToken;
 
-        new CreateTokenForAccountHolderEndpoint()
-                .setToken(token)
+        this.loggedUserToken = new CreateTokenForAccountHolderEndpoint()
+                .getToken(token)
                 .sendRequest()
                 .assertRequestSuccess()
                 .getResponseModel();

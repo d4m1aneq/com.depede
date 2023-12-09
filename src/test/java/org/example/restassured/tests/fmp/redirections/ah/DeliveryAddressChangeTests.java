@@ -9,18 +9,18 @@ import org.testng.annotations.Test;
 
 public class DeliveryAddressChangeTests extends SuiteTestBase {
 
+    public Token token;
+
     @Test
     public void givenLoginTokenWhenPostThenChangeDeliveryAddressTest() {
 
-        CreateTokenTests createTokenTests = new CreateTokenTests();
-        createTokenTests.givenWhenPostThenTokenIsCreatedTest();
-        Token token = createTokenTests.actualToken;
 
         CreateTokenForAccountHolderTests createTokenForAHTests = new CreateTokenForAccountHolderTests();
         createTokenForAHTests.givenOAuthTokenWhenPostThenTokenForAccountHolderIsCreatedTest();
+        Token token = createTokenForAHTests.loggedUserToken;
 
         new ParcelsListEndpoint()
-                .setToken(token)
+                .getToken(token)
                 .sendRequest()
                 .assertRequestSuccess()
                 .getResponseModel();

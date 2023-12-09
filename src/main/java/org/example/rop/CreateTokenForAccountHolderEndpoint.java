@@ -21,8 +21,8 @@ public class CreateTokenForAccountHolderEndpoint extends BaseEndpoint<CreateToke
 
         response = given().spec(RequestConfigurationBuilder.getDefaultRequestSpecification())
                 .header("Authorization", token.getTokenType()+" "+token.getAccessToken())
-                .body("\"Test123$\"")
-                .post("users/login/argentinianuser@tvzcmwk2.mailosaur.net");
+                .body("\"Test1234!\"")
+                .post("users/login/czechia-test@z7vpjrzt.mailosaur.net");
         return this;
     }
     @Override

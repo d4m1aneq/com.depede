@@ -31,7 +31,7 @@ public class ParcelsListEndpoint extends BaseEndpoint<ParcelsListEndpoint, Token
         return HttpStatus.SC_OK;
     }
 
-    public ParcelsListEndpoint setToken(Token token) {
+    public ParcelsListEndpoint getToken(Token token) {
         this.token = token;
         return this;
     }
